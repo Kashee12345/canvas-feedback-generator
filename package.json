@@ -1,0 +1,6 @@
+{
+  "name": "canvas-feedback-generator",
+  "version": "1.0.0",
+  "engines": {"node": "24.x"},
+  "dependencies": {"express": "^4.18.2", "node-fetch": "^2.7.0"}
+}
