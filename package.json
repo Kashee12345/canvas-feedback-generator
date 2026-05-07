@@ -1,0 +1,18 @@
+{
+  "name": "canvas-feedback-generator",
+  "version": "1.0.0",
+  "description": "Automated feedback generation for Canvas via Claude API",
+  "main": "api/feedback.js",
+  "scripts": {
+    "dev": "node feedback-api-server.js",
+    "start": "node feedback-api-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
